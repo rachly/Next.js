@@ -6,11 +6,11 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (<div>
-  
+
     <div>
-     Home Page
-      </div>
-      </div>
+      Home Page
+    </div>
+  </div>
   );
 };
 
