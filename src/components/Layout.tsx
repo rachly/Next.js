@@ -7,12 +7,13 @@ import styles from "../../styles/layout.module.css";
 
 
 interface IProps{
-    children:ReactNode;
+       children:ReactNode;
 }
 
  const Layout : FC<IProps>=({children  })=>{
     return(
        <>
+       <p></p>
        <div className='styles.layout'>
        <NavBar />
        <Divider/>
