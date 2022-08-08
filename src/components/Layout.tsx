@@ -10,7 +10,7 @@ interface IProps{
        children:ReactNode;
 }
 
- const Layout : FC<IProps>=({children  })=>{
+ const Layout : FC<IProps>=({children })=>{
     return(
        <>
        <p></p>
